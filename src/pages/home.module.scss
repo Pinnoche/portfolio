@@ -1,0 +1,420 @@
+// Hero Background
+.hero {
+    width: 100%;
+    height: 450px;
+    font-family: "Poppins", sans-serif;
+    padding: 5px 100px;
+    margin-top: 88px;
+    
+    
+}
+
+.hero_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+// Container For Left Text
+.c1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+    width: max(45%, 450px);
+    height: fit-content;
+    
+
+    // 1st Text Element
+    .t1 {
+        color: #bdc1c6;
+        font-size: 2.1rem;
+        font-weight: 400;
+    }
+
+    // 2nd Text Element
+    .t2 {
+        color: #ffffff;
+        font-size: 4.5rem;
+        line-height: 3.5rem;
+        font-weight: 700;
+    }
+
+    //Line Element
+    .line {
+        height: 4px;
+        width: 270px;
+        background: #ffc800;
+        border-radius: 5px 5px 5px 5px;
+    }
+
+    // 3rd Text Element
+    .t3 {
+        color: #bdc1c6;
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+
+    //4th Text Element
+    .t4 {
+        display: flex;
+        align-items: center;
+        color: #ffc800;
+        font-size: 0.95rem;
+    }
+
+    //Contacts Icons
+    .icons {
+        display: flex;
+        gap: 6px;
+
+        .icon {
+            width: 35px;
+            height: 35px;
+            background: rgba(255, 255, 255, 0.067);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+    }
+}
+
+// Photo Container
+.c2 {
+    height: 320px;
+    width: 320px;
+    background-color: rgba(30, 32, 44, 0.95);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    //Photo 
+    .photo {
+        height: 100%;
+        width: 100%;
+        display: flex;
+       // border: 1px solid red;
+       // border-radius: 50%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+}
+// Mid Section Flex
+.mflex {
+    display: flex;
+    justify-content: center;
+}
+
+// Mid Section
+.mid {
+    position: absolute;
+    top: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 75%;
+    height: 120px;
+    background: #404650;
+    box-shadow: 0px 15px 25px -2px rgba(0, 0, 0, 0.1),
+        0px 8px 10px -6px rgba(0, 0, 0, 0.1);
+
+    // Boxes
+    .child {
+        width: 160px;
+        height: 60px;
+        background: rgba(30, 32, 44, 0.4);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+     // Boxes Text
+    .inner {
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-size: 1.2rem;
+        line-height: 2rem;
+        font-weight: 500;
+
+        span {
+            width: 7px;
+        }
+    }
+}
+
+.projects {
+    width: 100%;
+    height: 600px;
+    background: rgba(30, 32, 44, 0.95);
+    font-family: "Poppins", sans-serif;
+    padding: 140px 100px 0px 100px;
+
+    .head {
+        color: #ffffff;
+        font-size: 1.9rem;
+        line-height: 2rem;
+        font-weight: 600;
+    }
+}
+
+.pflex {
+    margin-top: 3vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.card {
+    width: max(290px, 25%);
+    height: 306px;
+    padding: 0px 0px 20px;
+}
+
+.nail {
+    height: 60%;
+    width: 100%;
+    background: #9aa0a6;
+    border-radius: 5px 5px 5px 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.thumb {
+    height: 40%;
+    width: 100%;
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 6%;
+
+    .text {
+        color: #ffffff;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        font-weight: 500;
+        margin-bottom: 5%;
+    }
+
+    .tag {
+        color: #9aa0a6;
+        font-size: 1rem;
+        line-height: 1.2rem;
+        font-weight: 500;
+    }
+
+    .tabflex {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 7px;
+
+        .tagline {
+            display: flex;
+            align-items: center;
+            border: 1px solid #ffc800;
+            border-radius: 10px 10px 10px 10px;
+            width: fit-content;
+
+            span {
+                margin: 0 6px;
+                color: #ffc800;
+                font-size: 0.75rem;
+            }
+        }
+    }
+}
+
+/*Responsive*/
+
+//Large Screen Sizes
+@media (min-width: 601px) {
+    .m_arrrow {
+        display: none;
+    }
+}
+
+//Medium Devices Breakpoints
+@media (max-width: 970px) {
+
+   // Photo Container
+   .c2 {
+    height: 280px;
+    width: 280px;
+   }
+   // Container For Left Text
+   .c1 {
+    width: 390px;
+    row-gap: 5px;
+        // 2nd Text Element
+        .t2 {
+            //font-size: 4.5rem; 
+            font-size: 7.5vw;
+            line-height: 5.9vw;
+
+        }
+         // 3rd Text Element
+        .t3 {
+            font-size: 1.5vw;
+            font-weight: 400;
+        }
+
+   }
+
+}
+
+//Small Devices Breakpoints
+
+// Mobile Breakpoints
+@media (max-width: 600px) {
+    
+    .hero_flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        
+    }
+    
+    .hero {               
+        padding: 25px 40px;
+        height: 678px;
+
+        .c1 {
+            flex-direction: column;
+            row-gap: 9px;
+            width: 95%;
+            height: fit-content;
+            
+
+            .t1 {
+                font-size: 1.7rem;
+                line-height: 1.7rem;
+            }
+
+            .t2 {
+                font-size: 3rem;
+                line-height: 2.9rem;
+                font-weight: 700;
+            }
+
+            .line {
+                height: 3px;
+                width: 170px;
+                border-radius: 7px 7px 7px 7px;
+            }
+
+            .t3 {
+                font-size: 0.85rem;
+            }
+
+            .t4 {
+                font-size: 0.85rem;
+            }
+
+            .icons {
+                .icon {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+
+    .c2 {
+        margin: 15px auto;
+        height: 50vw;
+        width: 50vw;
+
+        .photo {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    .mid {
+        height: 150px;
+        top: 673px;
+        width: 85%;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 14px;
+        padding: 10px 10px;
+
+        .child {
+            width: 45%;
+            height: 55px;
+        }
+
+        .inner {
+            font-size: 3.2vw;
+
+            span {
+                width: 7px;
+            }
+        }
+    }
+
+    .projects {
+        height: 860px;
+        padding: 140px 40px 0px 40px;
+    }
+
+    .pflex {
+        margin-top: 7vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        height: 90px;
+        display: flex;
+        padding: 0px 0px 0px;
+    }
+
+    .nail {
+        height: 100%;
+        width: 37%;
+    }
+
+    .thumb {
+        height: 100%;
+        width: 60%;
+        padding: 5px 10px;
+
+        .text {
+            font-size: 1rem;
+            line-height: 1rem;
+            margin-bottom: 2px;
+        }
+
+        .tag {
+            font-size: 0.85rem;
+            line-height: 1rem;
+            font-weight: 400;
+        }
+
+        .tabflex {
+            gap: 6px;
+
+            .tagline {
+                span {
+                    margin: 0 6px;
+                    font-size: 0.5rem;
+                    line-height: 0.8rem;
+                }
+            }
+        }
+    }
+
+    .m_arrrow {
+        display: flex;
+        align-items: center;
+    }
+}

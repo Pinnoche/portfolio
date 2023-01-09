@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+html{  
+    height: 100%;
+    scroll-behavior: smooth;
+    background-color: rgba(30, 32, 44, 0.9);
+    
+    
+    
+
+}
+body{
+    -webkit-font-smoothing: antialiased;
+}
+
+.layout{
+    padding: 0 60px;
+}
