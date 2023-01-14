@@ -1,6 +1,11 @@
 @import "../../global_styles/helper.scss";
 
-header {
+// navbar
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
   height: 88px;
   width: 100%;
   display: flex;
@@ -8,8 +13,24 @@ header {
   padding: 0 100px;
   justify-content: space-between;
   font-family: "Poppins", sans-serif;
+}
+
+// navbar with background color
+.navbarbg {
   position: fixed;
+  top: 0;
+  left: 0;
   z-index: 100;
+  height: 88px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 100px;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  background: rgba(30, 32, 44, 0.95);
+
+
 }
 
 // left container on navbar
@@ -187,9 +208,13 @@ header {
       display: none;
   }
 
-  header {
+  .navbar {
     height: 68px;
     padding: 0 40px;
     background: rgba(30, 32, 44, 0.95);
+  }
+  .navbarbg {
+    padding: 0 40px;
+    height: 68px;
   }
 }

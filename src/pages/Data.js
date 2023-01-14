@@ -1,4 +1,5 @@
 import test from "./hero.jpg";
+import store from "./QueryStore.JPG"
 
 
 
@@ -6,7 +7,7 @@ export const Projects = [
 
     {
         title: "Query Store",
-        Image:test,
+        Image:store,
         tag1: "React Query",
         tag2:  "Axios",
         tag3:  "React Router",
