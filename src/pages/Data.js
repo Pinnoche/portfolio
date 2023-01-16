@@ -1,4 +1,4 @@
-import games from "./gamesmode.JPG";
+import games from "./games.JPG";
 import store from "./QueryStore.JPG"
 
 
