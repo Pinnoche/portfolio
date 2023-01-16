@@ -40,10 +40,10 @@ window.addEventListener('scroll', changeColor)
         </span>
 
         <ul className={nav.c2}>
-          <a>Home </a>
+          <a href="#">Home </a>
           {/* Add an onClick event handler that calls the scrollToSection function */}
           <Link to='#projects' smooth>Projects</Link>
-          <a>About</a>
+          <a href="#">About</a>
         </ul>
       </div>
 

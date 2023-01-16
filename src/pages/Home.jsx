@@ -110,7 +110,9 @@ function Home() {
                     style={{ backgroundImage: `url(${val.Image})` }}
                   ></div>
                   <div className={h.thumb}>
-                    <span className={h.text}>{val.title}</span>
+                    <span className={h.text}
+                    onClick={() => window.open(val.website)}
+                    >{val.title}</span>
                     <span className={h.tag}>Tags</span>
                     <div className={h.tabflex}>
                       <div className={h.tagline}>
