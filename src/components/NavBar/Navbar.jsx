@@ -21,13 +21,13 @@ window.addEventListener('scroll', changeColor)
 
 
   const handleClick1 = () => {
-    window.location.href = "mailto:chrisidoko0017@gmail.com";
+    window.location.href = "mailto:malikolalekana4@gmail.com";
   };
   const handleClick2 = () => {
-    window.open("https://www.linkedin.com/in/chris-idoko-56907b207/", "_blank");
+    window.open("https://www.linkedin.com/in/ajani-malik-olalekan/", "_blank");
   };
   const handleClick3 = () => {
-    window.open("https://github.com/Chrisidoko", "_blank");
+    window.open("https://github.com/ajani-m1704425", "_blank");
   };
 
   return (
@@ -36,14 +36,15 @@ window.addEventListener('scroll', changeColor)
         <span className={nav.logo}>
           <MdTagFaces color=" #ffc800" />
           <span />
-          Chris
+          Malik
         </span>
 
         <ul className={nav.c2}>
-          <a href="#">Home </a>
+          <Link to='#' smooth>Home</Link>
           {/* Add an onClick event handler that calls the scrollToSection function */}
           <Link to='#projects' smooth>Projects</Link>
-          <a href="#">About</a>
+          <Link to='#' smooth>About</Link>
+          
         </ul>
       </div>
 

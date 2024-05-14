@@ -1,7 +1,7 @@
 import React from "react";
 import h from "./home.module.scss";
-import { FaReact, FaSass, FaGitAlt } from "react-icons/fa";
-import { SiJavascript } from "react-icons/si";
+import { FaReact, FaNodeJs } from "react-icons/fa";
+import { SiJavascript, SiTailwindcss } from "react-icons/si";
 import { BsArrowRightShort } from "react-icons/bs";
 import {
   AiOutlineTwitter,
@@ -10,20 +10,21 @@ import {
   AiFillGithub,
 } from "react-icons/ai";
 import { Projects } from "./Data";
-import profile from "./pic.png";
+import profile from "./pic.jpg";
+
 
 function Home() {
   const handleClick1 = () => {
-    window.open("https://twitter.com/Chris_devxo", "_blank");
+    window.open("https://twitter.com/malikolalekana", "_blank");
   };
   const handleClick2 = () => {
-    window.location.href = "mailto:chrisidoko0017@gmail.com";
+    window.location.href = "mailto:malikolalekana4@gmail.com";
   };
   const handleClick3 = () => {
-    window.open("https://www.linkedin.com/in/chris-idoko-56907b207/", "_blank");
+    window.open("https://www.linkedin.com/in/ajani-malik-olalekan/", "_blank");
   };
   const handleClick4 = () => {
-    window.open("https://github.com/Chrisidoko", "_blank");
+    window.open("https://github.com/ajani-m1704425", "_blank");
   };
 
   return (
@@ -33,13 +34,13 @@ function Home() {
           <span className={h.hero_flex}>
             <div className={h.c1}>
               <span className={h.t1}>I'm</span>
-              <span className={h.t2}>Chris Onoja</span>
+              <span className={h.t2}>Malik Ajani</span>
               <span className={h.line} />
               <span className={h.t3}>
-                A frontend developer with experience in building modern,
-                responsive web applications using React. I am proficient in
-                using React hooks, libraries and functional components to build
-                scalable and maintainable user interfaces. Lets build
+                A software developer with experience in building modern,
+                responsive web applications using a variety of JavaScript libraries and Frameworks. I am proficient in
+                using Next.js, React.js, Node.js, Express.js, and TypeScript to build
+                scalable and maintainable web applications. Lets build
                 high-quality, user-friendly products together.
               </span>
               <span className={h.t4}>
@@ -86,15 +87,15 @@ function Home() {
             </span>
             <span className={h.child}>
               <div className={h.inner}>
-                <FaSass color="#f4615a" size={29} />
+                <SiTailwindcss color="#36b6f2" size={29} />
                 <span />
-                Sass/Scss
+                Tailwindcss
               </div>
             </span>
             <span className={h.child}>
               <div className={h.inner}>
-                <FaGitAlt color="#f4615a" size={29} />
-                <span /> Git
+                <FaNodeJs color="#7CB702" size={29} />
+                <span /> NodeJs
               </div>
             </span>
           </div>
@@ -102,9 +103,9 @@ function Home() {
         <div id="projects" className={h.projects}>
           <span className={h.head}>My Projects</span>
           <div className={h.pflex}>
-            {Projects.map((val, key) => {
+            {Projects.map((val, ind) => {
               return (
-                <div key={key} className={h.card}>
+                <div key={ind} className={h.card} onClick={() => window.open(val.website)}>
                   <div
                     className={h.nail}
                     style={{ backgroundImage: `url(${val.Image})` }}
