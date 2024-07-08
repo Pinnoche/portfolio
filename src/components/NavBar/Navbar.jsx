@@ -21,13 +21,13 @@ window.addEventListener('scroll', changeColor)
 
 
   const handleClick1 = () => {
-    window.location.href = "mailto:malikolalekana4@gmail.com";
+    window.location.href = "mailto:ptime552@gmail.com";
   };
   const handleClick2 = () => {
-    window.open("https://www.linkedin.com/in/ajani-malik-olalekan/", "_blank");
+    window.open("https://www.linkedin.com/in/pinnoche/", "_blank");
   };
   const handleClick3 = () => {
-    window.open("https://github.com/ajani-m1704425", "_blank");
+    window.open("https://github.com/pinnoche", "_blank");
   };
 
   return (
@@ -36,7 +36,7 @@ window.addEventListener('scroll', changeColor)
         <span className={nav.logo}>
           <MdTagFaces color=" #ffc800" />
           <span />
-          Malik
+          Dimeji
         </span>
 
         <ul className={nav.c2}>

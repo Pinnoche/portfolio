@@ -10,21 +10,21 @@ import {
   AiFillGithub,
 } from "react-icons/ai";
 import { Projects } from "./Data";
-import profile from "./pic.jpg";
+import profile from "./profile-picture.jpeg";
 
 
 function Home() {
   const handleClick1 = () => {
-    window.open("https://twitter.com/malikolalekana", "_blank");
+    window.open("https://twitter.com/dee74wise", "_blank");
   };
   const handleClick2 = () => {
-    window.location.href = "mailto:malikolalekana4@gmail.com";
+    window.location.href = "mailto:ptime552@gmail.com";
   };
   const handleClick3 = () => {
-    window.open("https://www.linkedin.com/in/ajani-malik-olalekan/", "_blank");
+    window.open("https://www.linkedin.com/in/pinnoche/", "_blank");
   };
   const handleClick4 = () => {
-    window.open("https://github.com/ajani-m1704425", "_blank");
+    window.open("https://github.com/pinnoche", "_blank");
   };
 
   return (
@@ -34,7 +34,7 @@ function Home() {
           <span className={h.hero_flex}>
             <div className={h.c1}>
               <span className={h.t1}>I'm</span>
-              <span className={h.t2}>Malik Ajani</span>
+              <span className={h.t2}>Quadri Oladipupo Oladimeji</span>
               <span className={h.line} />
               <span className={h.t3}>
                 A software developer with experience in building modern,
