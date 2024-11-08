@@ -39,7 +39,7 @@ function Home() {
                 A software developer with experience in building modern,
                 responsive web applications using a variety of JavaScript
                 libraries and Frameworks. I am proficient in using Next.js,
-                React.js, Node.js, Express.js, and TypeScript to build scalable
+                React.js,Vue.js, Node.js, Express.js, LaravelPhp and TypeScript to build scalable
                 and maintainable web applications. Lets build high-quality,
                 user-friendly products together.
               </span>
