@@ -12,7 +12,6 @@ import {
 import { Projects } from "./Data";
 import profile from "./profile-picture.jpeg";
 
-
 function Home() {
   const handleClick1 = () => {
     window.open("https://twitter.com/dee74wise", "_blank");
@@ -38,10 +37,11 @@ function Home() {
               <span className={h.line} />
               <span className={h.t3}>
                 A software developer with experience in building modern,
-                responsive web applications using a variety of JavaScript libraries and Frameworks. I am proficient in
-                using Next.js, React.js, Node.js, Express.js, and TypeScript to build
-                scalable and maintainable web applications. Lets build
-                high-quality, user-friendly products together.
+                responsive web applications using a variety of JavaScript
+                libraries and Frameworks. I am proficient in using Next.js,
+                React.js, Node.js, Express.js, and TypeScript to build scalable
+                and maintainable web applications. Lets build high-quality,
+                user-friendly products together.
               </span>
               <span className={h.t4}>
                 Contact Me <BsArrowRightShort size={20} />
@@ -105,15 +105,22 @@ function Home() {
           <div className={h.pflex}>
             {Projects.map((val, ind) => {
               return (
-                <div key={ind} className={h.card} onClick={() => window.open(val.website)}>
+                <div
+                  key={ind}
+                  className={h.card}
+                  onClick={() => window.open(val.website)}
+                >
                   <div
                     className={h.nail}
                     style={{ backgroundImage: `url(${val.Image})` }}
                   ></div>
                   <div className={h.thumb}>
-                    <span className={h.text}
-                    onClick={() => window.open(val.website)}
-                    >{val.title}</span>
+                    <span
+                      className={h.text}
+                      onClick={() => window.open(val.website)}
+                    >
+                      {val.title}
+                    </span>
                     <span className={h.tag}>Tags</span>
                     <div className={h.tabflex}>
                       <div className={h.tagline}>

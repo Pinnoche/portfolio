@@ -5,10 +5,8 @@ import "./global_styles/main.scss";
 function App() {
   return (
     <>
-     
-        <Navbar />
-        <Home />
-      
+      <Navbar />
+      <Home />
     </>
   );
 }
