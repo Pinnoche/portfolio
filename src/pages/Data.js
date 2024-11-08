@@ -6,6 +6,7 @@ import netflix from "./netflix.JPG";
 import pizza from "./pizza-order.png";
 import adilo from "./adilo.png";
 import recipe from "./recipe.png";
+import eVoting from "./e-voting.png";
 
 export const Projects = [
   {
@@ -55,6 +56,17 @@ export const Projects = [
     tag3: "SwiperJS",
     tag4: "React Router",
   },
+
+  {
+    title: "E-Voting",
+    website: "https://e-voting-collab.vercel.app/",
+    Image: eVoting,
+    tag1: "ReactJs",
+    tag2: "Tailwind Css",
+    tag3: "",
+    tag4: "",
+  },
+
   {
     title: "MUSICKK",
     website: "https://musicapp-mu.vercel.app/",
@@ -64,6 +76,7 @@ export const Projects = [
     tag3: "SwiperJs",
     tag4: "Landing Pagge",
   },
+
   {
     title: "Netflix Clone",
     website: "https://netflix-clone-82119.web.app/",
