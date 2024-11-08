@@ -30,6 +30,16 @@ export const Projects = [
   },
 
   {
+    title: "Netflix Clone",
+    website: "https://netflix-clone-82119.web.app/",
+    Image: netflix,
+    tag1: "ReactJs",
+    tag2: "React Hooks",
+    tag3: "Rest Api",
+    tag4: "Axios",
+  },
+
+  {
     title: "Pizza Company",
     website: "https://dmj-pizza.vercel.app/",
     Image: pizza,
@@ -75,16 +85,6 @@ export const Projects = [
     tag2: "React Hook",
     tag3: "SwiperJs",
     tag4: "Landing Pagge",
-  },
-
-  {
-    title: "Netflix Clone",
-    website: "https://netflix-clone-82119.web.app/",
-    Image: netflix,
-    tag1: "ReactJs",
-    tag2: "React Hooks",
-    tag3: "Rest Api",
-    tag4: "Axios",
   },
 
   {
