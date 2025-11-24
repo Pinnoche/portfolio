@@ -1,7 +1,7 @@
 import React from "react";
 import h from "./home.module.scss";
-import { FaReact, FaNodeJs } from "react-icons/fa";
-import { SiJavascript, SiTailwindcss } from "react-icons/si";
+import { FaReact, FaNodeJs, FaLaravel } from "react-icons/fa";
+import { SiJavascript, SiTailwindcss, SiTypescript } from "react-icons/si";
 import { BsArrowRightShort } from "react-icons/bs";
 import {
   AiOutlineTwitter,
@@ -14,7 +14,7 @@ import profile from "./profile-picture.jpeg";
 
 function Home() {
   const handleClick1 = () => {
-    window.open("https://twitter.com/dee74wise", "_blank");
+    window.open("https://x.com/dmj_wise", "_blank");
   };
   const handleClick2 = () => {
     window.location.href = "mailto:ptime552@gmail.com";
@@ -87,6 +87,12 @@ function Home() {
             </span>
             <span className={h.child}>
               <div className={h.inner}>
+                <SiTypescript color="#24b4fb" size={26} />
+                <span /> TypeScript
+              </div>
+            </span>
+            <span className={h.child}>
+              <div className={h.inner}>
                 <SiTailwindcss color="#36b6f2" size={29} />
                 <span />
                 Tailwindcss
@@ -96,6 +102,12 @@ function Home() {
               <div className={h.inner}>
                 <FaNodeJs color="#7CB702" size={29} />
                 <span /> NodeJs
+              </div>
+            </span>
+            <span className={h.child}>
+              <div className={h.inner}>
+                <FaLaravel color="#FF2D20" size={29} />
+                <span /> Laravel PHP
               </div>
             </span>
           </div>

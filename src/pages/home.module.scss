@@ -109,12 +109,13 @@
 .mflex {
   display: flex;
   justify-content: center;
+  // margin-top: 0px;
 }
 
 // Mid Section
 .mid {
   position: absolute;
-  top: 480px;
+  top: 550px;
   display: flex;
   align-items: center;
   justify-content: space-around;

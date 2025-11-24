@@ -7,8 +7,18 @@ import pizza from "./pizza-order.png";
 import adilo from "./adilo.png";
 import recipe from "./recipe.png";
 import eVoting from "./e-voting.png";
+import chat from "./dmj_chat.png";
 
 export const Projects = [
+  {
+    title: "DMJ Chat",
+    website: "https://dmj-chat.vercel.app/",
+    Image: chat,
+    tag1: "NextJs",
+    tag2: "Tailwindcss",
+    tag3: "Typescript",
+    tag4: "react-markdown, rehype-highlight, remark-gfm",
+  },
   {
     title: "Galxe Landing Page",
     website: "https://galxe-project.vercel.app/",
@@ -55,7 +65,7 @@ export const Projects = [
     tag1: "VueJs",
     tag2: "Vanilla Css",
     tag3: "Chart.js",
-    tag4: "",
+    tag4: "CSS3",
   },
   {
     title: "Fooddelivery",
@@ -73,8 +83,8 @@ export const Projects = [
     Image: eVoting,
     tag1: "ReactJs",
     tag2: "Tailwind Css",
-    tag3: "",
-    tag4: "",
+    tag3: "Responsive Design",
+    tag4: "Wallet Connect - static",
   },
 
   {
