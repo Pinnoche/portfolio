@@ -4,7 +4,6 @@ import { FaReact, FaNodeJs, FaLaravel } from "react-icons/fa";
 import { SiJavascript, SiTailwindcss, SiTypescript } from "react-icons/si";
 import { BsArrowRightShort, BsTwitterX } from "react-icons/bs";
 import {
-  AiOutlineTwitter,
   AiFillMail,
   AiFillLinkedin,
   AiFillGithub,
