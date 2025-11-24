@@ -2,7 +2,7 @@ import React from "react";
 import h from "./home.module.scss";
 import { FaReact, FaNodeJs, FaLaravel } from "react-icons/fa";
 import { SiJavascript, SiTailwindcss, SiTypescript } from "react-icons/si";
-import { BsArrowRightShort } from "react-icons/bs";
+import { BsArrowRightShort, BsTwitterX } from "react-icons/bs";
 import {
   AiOutlineTwitter,
   AiFillMail,
@@ -32,14 +32,14 @@ function Home() {
         <div className={h.hero}>
           <span className={h.hero_flex}>
             <div className={h.c1}>
-              <span className={h.t1}>I'm</span>
-              <span className={h.t2}>Quadri Oladipupo Oladimeji</span>
+              <span className={h.t1}>I am</span>
+              <span className={h.t2}>Quadri O. Oladipupo</span>
               <span className={h.line} />
               <span className={h.t3}>
                 A software developer with experience in building modern,
                 responsive web applications using a variety of JavaScript
-                libraries and Frameworks. I am proficient in using Next.js,
-                React.js,Vue.js, Node.js, Express.js, LaravelPhp and TypeScript to build scalable
+                libraries and Frameworks. I am proficient in writing Javascript, TypeScript and PHP using Next.js,
+                React.js,Vue.js, Node.js, Express.js, NestJs and LaravelPhp to build scalable
                 and maintainable web applications. Lets build high-quality,
                 user-friendly products together.
               </span>
@@ -48,16 +48,16 @@ function Home() {
               </span>
               <div className={h.icons}>
                 <span onClick={handleClick1} className={h.icon}>
-                  <AiOutlineTwitter color="#ffc800" />
+                  <BsTwitterX color="#000000" />
                 </span>
                 <span onClick={handleClick2} className={h.icon}>
-                  <AiFillMail color="#ffc800" />
+                  <AiFillMail color="#ffffff" />
                 </span>
                 <span onClick={handleClick3} className={h.icon}>
-                  <AiFillLinkedin color="#ffc800" />
+                  <AiFillLinkedin color="#0077B5" />
                 </span>
                 <span onClick={handleClick4} className={h.icon}>
-                  <AiFillGithub color="#ffc800" />
+                  <AiFillGithub color="#ffffff" />
                 </span>
               </div>
             </div>

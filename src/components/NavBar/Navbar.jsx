@@ -36,7 +36,7 @@ window.addEventListener('scroll', changeColor)
         <span className={nav.logo}>
           <MdTagFaces color=" #ffc800" />
           <span />
-          Dimeji
+          DMJ
         </span>
 
         <ul className={nav.c2}>
